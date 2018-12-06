@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="102px" viewBox="0 0 101 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo portfolio websit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0.113716476 0.16194076 0.113716476 86.0074008 0.113716476 96.6647177 0.113716476 126.761342 12.3773536 126.761342 12.3773536 96.6647177 12.3773536 86.0074008 12.3773536 10.3683273"></polygon>
+        <rect id="path-3" x="2.91958525" y="89.7841014" width="6.38709677" height="6.38709677"></rect>
+        <rect id="path-4" x="2.91958525" y="115.651843" width="6.38709677" height="6.38709677"></rect>
+        <rect id="path-5" x="2.91958525" y="102.558295" width="6.38709677" height="6.38709677"></rect>
+        <polygon id="path-6" points="0 0 0 85.84546 5.82727427e-15 96.502777 0 126.599402 12.2636371 126.599402 12.2636371 96.502777 12.2636371 85.84546 12.2636371 10.2063865"></polygon>
+        <rect id="path-7" x="2.91958525" y="89.4647465" width="6.38709677" height="6.38709677"></rect>
+        <rect id="path-8" x="2.91958525" y="115.332488" width="6.38709677" height="6.38709677"></rect>
+        <rect id="path-9" x="2.91958525" y="102.23894" width="6.38709677" height="6.38709677"></rect>
+    </defs>
+    <g id="nav_bar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-18.000000, -6.000000)">
+        <g id="Logo-portfolio-websit" transform="translate(19.000000, 8.000000)">
+            <g id="Group-3" transform="translate(-1.100000, 0.000000)">
+                <g id="Group-2" transform="translate(50.622582, 50.099672) rotate(45.000000) translate(-50.622582, -50.099672) translate(44.022582, -13.700328)">
+                    <g id="Path">
+                        <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                        <use stroke="#000000" stroke-width="1.27741935" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M3.83225806,82.1303301 L3.83225806,6.68025454 C6.59761257,9.5578675 8.13048129,11.1904028 8.43086421,11.5778604 C8.73124713,11.965318 8.73124713,14.9451315 8.43086421,20.5173009 L8.43086421,82.1303301 C7.6860082,83.2788432 7.14522167,83.8530998 6.80850464,83.8530998 C6.47178761,83.8530998 5.47970542,83.2788432 3.83225806,82.1303301 Z" id="Path-2" stroke="#000000" stroke-width="1.27741935" fill="#D9D9D9"></path>
+                    <path d="M0.268208165,85.8758884 L12.4492251,85.8758884" id="Path-3" stroke="#000000" stroke-width="1.27741935" fill="#FFFFFF"></path>
+                    <g id="Rectangle" transform="translate(6.113134, 92.977650) rotate(45.000000) translate(-6.113134, -92.977650) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#C92B2B" stroke-width="1.27741935" x="3.55829492" y="90.4228111" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                    <g id="Rectangle" transform="translate(6.113134, 118.845392) rotate(45.000000) translate(-6.113134, -118.845392) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#C91919" stroke-width="1.27741935" x="3.55829492" y="116.290553" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                    <g id="Rectangle" transform="translate(6.113134, 105.751843) rotate(45.000000) translate(-6.113134, -105.751843) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#C91919" stroke-width="1.27741935" x="3.55829492" y="103.197005" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(50.579227, 49.780317) scale(-1, 1) rotate(45.000000) translate(-50.579227, -49.780317) translate(43.979227, -14.019683)">
+                    <g id="Path">
+                        <use fill="#000000" xlink:href="#path-6"></use>
+                        <use stroke="#FFFFFF" stroke-width="1.27741935" fill="url(#linearGradient-1)" xlink:href="#path-6"></use>
+                    </g>
+                    <path d="M3.83225806,81.8371724 L3.83225806,6.38709677 C6.59761257,9.26470973 8.13048129,10.897245 8.43086421,11.2847026 C8.73124713,11.6721602 8.73124713,14.6519737 8.43086421,20.2241431 L8.43086421,81.8371724 C7.6860082,82.9856855 7.14522167,83.559942 6.80850464,83.559942 C6.47178761,83.559942 5.47970542,82.9856855 3.83225806,81.8371724 Z" id="Path-2" stroke="#FFFFFF" stroke-width="1.27741935" fill="#797979"></path>
+                    <path d="M0.319354839,85.5870968 L12.5003717,85.5870968" id="Path-3" stroke="#FFFFFF" stroke-width="1.27741935" fill="#000000"></path>
+                    <g id="Rectangle" transform="translate(6.113134, 92.658295) rotate(45.000000) translate(-6.113134, -92.658295) ">
+                        <use fill="#000000" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <rect stroke="#FFFF64" stroke-width="1.27741935" x="3.55829492" y="90.1034562" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                    <g id="Rectangle" transform="translate(6.113134, 118.526037) rotate(45.000000) translate(-6.113134, -118.526037) ">
+                        <use fill="#000000" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <rect stroke="#FFFF64" stroke-width="1.27741935" x="3.55829492" y="115.971198" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                    <g id="Rectangle" transform="translate(6.113134, 105.432488) rotate(45.000000) translate(-6.113134, -105.432488) ">
+                        <use fill="#000000" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <rect stroke="#FFFF64" stroke-width="1.27741935" x="3.55829492" y="102.87765" width="5.10967742" height="5.10967742"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

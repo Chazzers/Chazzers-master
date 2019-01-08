@@ -1,65 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 
 <head>
   <title>99 verhalen site</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
 </head>
+
 <header>
-
+  <nav>
+    <ul>
+      <li><a href=""><img class="niet_logo" src="images/zoekknop.svg" alt=""></a></li>
+      <li><a href=""><img src="images/logo_u-ov.svg" alt=""></a></li>
+      <li><a href=""><img class="niet_logo" src="images/profiel.svg" alt=""></a></li>
+    </ul>
+  </nav>
 </header>
+
 <body>
+
+  <div class="achtergrond_inleiding">
+    <article id="inleiding">
+      <header>
+        <h1>Jouw co-piloot van deur tot deur</h1>
+        <h2 class="h2">99 verhalen voor op reis</h2>
+        <p>Hier kun je 99 verhalen lezen met hetzelfde onderwerp, de schrijfstijlen verschillen echter bij elk verhaal.</p>
+        <p>Bij elk verhaal zijn kleine schilderijen gemaakt die het verhaal ondersteunen en interessanter maken.</p>
+      </header>
+      <footer>
+        <a class="main_button" href="#de_verhalen">Begin met lezen</a>
+      </footer>
+    </article>
+  </div>
+
   <section>
-    <h1>99 verhalen voor op reis</h1>
-    <p>Hier kun je 99 verhalen lezen met hetzelfde onderwerp, echter verschillen de schrijfstijlen bij elk verhaal.</p>
-    <p>Bij elk verhaal zijn kleine schilderijen gemaakt die het verhaal ondersteunen en interessanter maken.</p>
-  </section>
 
-  <section #de_verhalen>
+    <h2>Alle verhalen</h2>
+
     <form action="">
-      <fieldset>
-        <legend>
-          <p>Filters</p>
-          <fieldset>
-            <p>Genre</p>
-            <label for="Spannend">Spannend</label>
-            <input for="Spannend" type="checkbox">
-            <label for="Vrolijk">Vrolijk</label>
-            <input for="Vrolijk" type="checkbox">
-            <label for="Droevig">Droevig</label>
-            <input for="Droevig" type="checkbox">
-            <label for="Druk">Druk</label>
-            <input for="Druk" type="checkbox">
-            <label for="Rustig">Rustig</label>
-            <input for="Rustig" type="checkbox">
-          </fieldset>
-          <fieldset>
-            <p>Verhaalduur</p>
-            <label for="~5 minuten">~5 minuten</label>
-            <input for="~5 minuten" type="checkbox">
-            <label for="~10 minuten">~10 minuten</label>
-            <input for="~10 minuten" type="checkbox">
-            <label for="~15 minuten">~15 minuten</label>
-            <input for="~15 minuten" type="checkbox">
-          </fieldset>
-        </legend>
+      <legend>Filteren op:</legend>
+
+      <div>
+
+      <fieldset class="filterItems">
+        <div id="filters">
+          <div>
+            <label class="active" for="genre">
+              Genre
+            </label>
+            <input id="genre" type="radio" name="filterOnderwerp">
+          </div>
+          <div>
+            <label class="active" for="verhaalduur">
+              Verhaalduur
+            </label>
+            <input id="verhaalduur" type="radio" name="filterOnderwerp"></div>
+        </div>
       </fieldset>
+
+
+      <div class="hide" id="genreShow">
+        <fieldset>
+          <div>
+            <ul>
+              <li>
+                <label for="Spannend">Spannend</label>
+                <input id="Spannend" name="genreFilters" type="radio">
+              </li>
+              <li>
+                <label for="Vrolijk">Vrolijk</label>
+                <input id="Vrolijk" name="genreFilters" type="radio">
+              </li>
+              <li>
+                <label for="Droevig">Droevig</label>
+                <input type="radio" id="Droevig" name="genreFilters">
+              </li>
+              <li>
+                <label for="Druk">Druk</label>
+                <input id="Druk" name="genreFilters" type="radio">
+              </li>
+              <li>
+                <label for="Rustig">Rustig</label>
+                <input id="Rustig" name="genreFilters" type="radio">
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="hide" id="verhaalduurShow">
+        <fieldset>
+          <ul>
+            <li>
+              <label for="~5 minuten">~5 minuten</label>
+              <input id="~5 minuten" type="radio" name="verhaalduurFilters">
+            </li>
+            <li>
+              <label for="~10 minuten">~10 minuten</label>
+              <input id="~10 minuten" type="radio" name="verhaalduurFilters">
+            </li>
+            <li>
+              <label for="~15 minuten">~15 minuten</label>
+              <input id="~15 minuten" type="radio" name="verhaalduurFilters">
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+    </div>
     </form>
+
+
+    <section class="sidescroll">
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+
+
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+
+
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+    </section>
+
+    <h2>Aanbevolen voor jou</h2>
+
+    <section class="sidescroll">
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+
+
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+
+
+
+      <article class="verhaal">
+        <a class="verhaal" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <h3>Hardboiled</h3>
+            <p>Een verhaal met ophopende frustraties.</p>
+          </section>
+        </a>
+      </article>
+
+
+    </section>
+
   </section>
 
-    <section>
-      <section class="sidescroll">
-        <article>
-          <a href="verhaal_Hardboiled.html"><img src="images/titel_van_naam.png" alt="titel van verhaal"><h3></h3><p></p></a>
-        </article>
-      </section>
-      <section class="sidescroll">
-        <h2>Aanbevolen voor jou</h2>
-        <article><a href="">
-            <h3></h3>
-            <p></p>
-          </a></article>
-      </section>
-    </section>
 </body>
 <footer></footer>
+<script src="js/script.js"></script>
+
 </html>

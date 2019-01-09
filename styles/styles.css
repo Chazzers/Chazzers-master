@@ -8,6 +8,11 @@ html{
   line-height: 1.50;
 }
 
+body, html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 nav{
   position: fixed;
   background-color: #6f655B;
@@ -30,13 +35,13 @@ nav ul{
 
 nav li{
   display: flex;
-  justify-content: center;
   min-width: 0;
 }
 
 nav a{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   min-width: 0;
   font-size: 0.5em;
@@ -44,11 +49,11 @@ nav a{
   color: white;
 }
 
-nav ul li a:first-child{
+nav #zoekKnop{
   align-items: flex-start;
 }
 
-nav ul li a:last-child{
+nav #profielKnop{
   align-items: flex-end;
 }
 
@@ -269,4 +274,8 @@ label:checked {
   display:flex;
   justify-content: space-between;
   padding-right: 2em;
+}
+
+#de_verhalen{
+  scroll-behavior: smooth;
 }

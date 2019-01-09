@@ -2,36 +2,6 @@
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
 
-/*
-var genreFilters = document.getElementById('genreFilters');
-function genreShow(){
-
-  if(genreFilters.style.display == "block"){
-    genreFilters.style.display = "none";
-}
-  else{
-    genreFilters.style.display = "block";
-  }
-}
-
-document.getElementById('genre').addEventListener('click', genreShow);
-
-
-var verhaalduurFilters = document.getElementById('verhaalduurFilters');
-function verhaalduurShow(){
-
-  if(verhaalduurFilters.style.display == "block"){
-    verhaalduurFilters.style.display = "none";
-}
-  else{
-    verhaalduurFilters.style.display = "block";
-  }
-}
-
-document.getElementById('verhaalduur').addEventListener('click', verhaalduurShow);
-*/
-
-
 function genreZien(){
 var genre = document.getElementById("genre");
 

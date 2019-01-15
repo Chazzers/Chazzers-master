@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1.0">
 </head>
 
-<header>
-  <nav>
-    <ul>
-      <li><a href="" id="zoekKnop"><img class="niet_logo" src="images/zoekknop.svg" alt=""></a></li>
-      <li><a href=""><img src="images/logo_u-ov.svg" alt=""></a></li>
-      <li><a href="" id="profielKnop"><img class="niet_logo" src="images/profiel.svg" alt=""></a></li>
-    </ul>
-  </nav>
-</header>
-
 <body>
 
-  <div class="achtergrond_inleiding">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="" id="zoekKnop"><img class="niet_logo" src="images/zoekknop.svg" alt=""></a></li>
+        <li><a href=""><img src="images/logo_u-ov.svg" alt=""></a></li>
+        <li><a href="" id="profielKnop"><img class="niet_logo" src="images/profiel.svg" alt=""></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="scroller" class="achtergrond_inleiding scroll">
     <article id="inleiding">
       <header>
         <h1>Jouw co-piloot van deur tot deur</h1>
@@ -28,7 +28,7 @@
         <p>Bij elk verhaal zijn kleine schilderijen gemaakt die het verhaal ondersteunen en interessanter maken.</p>
       </header>
       <footer>
-        <a class="main_button" href="#de_verhalen">Begin met lezen</a>
+        <a id="scroll" class="main_button" href="#de_verhalen">Begin met lezen</a>
       </footer>
     </article>
   </div>
@@ -39,73 +39,59 @@
     <form action="">
       <legend>Filteren op:</legend>
 
-      <div>
 
       <fieldset class="filterItems">
         <div id="filters">
-          <div>
-            <label class="active" for="genre">
-              Genre
-            </label>
-            <input id="genre" type="radio" name="filterOnderwerp">
+          <div id="genreknop">
+            <input type="button" value="Genre"  id="genre" class="filter">
           </div>
           <div>
-            <label class="active" for="verhaalduur">
-              Verhaalduur
-            </label>
-            <input id="verhaalduur" type="radio" name="filterOnderwerp"></div>
+            <input type="button" value="Verhaalduur" id="verhaalduur" class="filter">
+          </div>
         </div>
       </fieldset>
 
 
-      <div class="hide" id="genreShow">
+      <div id="genreShow" class="filterOnderwerp hide animatie">
         <fieldset>
           <div>
-            <ul>
+            <ul class="anime">
               <li>
-                <label for="Spannend">Spannend</label>
-                <input id="Spannend" name="genreFilters" type="radio">
+                <input value="Spannend" type="button" id="Spannend" class="filter">
               </li>
               <li>
-                <label for="Vrolijk">Vrolijk</label>
-                <input id="Vrolijk" name="genreFilters" type="radio">
+                <input value="Vrolijk" type="button" id="Vrolijk" class="filter">
               </li>
               <li>
-                <label for="Droevig">Droevig</label>
-                <input type="radio" id="Droevig" name="genreFilters">
+                <input type="button" value="Droevig" id="Droevig" class="filter">
               </li>
               <li>
-                <label for="Druk">Druk</label>
-                <input id="Druk" name="genreFilters" type="radio">
+                <input value="Druk" type="button" id="Druk" class="filter">
               </li>
               <li>
-                <label for="Rustig">Rustig</label>
-                <input id="Rustig" name="genreFilters" type="radio">
+                <input value="Rustig" type="button" id="Rustig" class="filter">
               </li>
             </ul>
           </div>
         </fieldset>
       </div>
 
-      <div class="hide" id="verhaalduurShow">
+      <div id="verhaalduurShow" class="filterOnderwerp hide animatie">
         <fieldset>
           <ul>
             <li>
-              <label for="~5 minuten">~5 minuten</label>
-              <input id="~5 minuten" type="radio" name="verhaalduurFilters">
+              <input type="button" value="~5 minuten" id="~5 minuten" class="filter">
             </li>
             <li>
-              <label for="~10 minuten">~10 minuten</label>
-              <input id="~10 minuten" type="radio" name="verhaalduurFilters">
+
+              <input type="button" value="~10 minuten" id="~10 minuten" class="filter">
             </li>
             <li>
-              <label for="~15 minuten">~15 minuten</label>
-              <input id="~15 minuten" type="radio" name="verhaalduurFilters">
+              <input type="button" value="~ 15 minuten" id="~15 minuten" class="filter">
             </li>
           </ul>
         </fieldset>
       </div>
-    </div>
     </form>
 
 

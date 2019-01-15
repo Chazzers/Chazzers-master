@@ -6,7 +6,6 @@ var genreItems = document.getElementById("genreShow");
 var verhaalduurItems = document.getElementById("verhaalduurShow");
 var genre = document.getElementById('genre');
 var verhaalduur = document.getElementById('verhaalduur');
-var animatieTwee = document.getElementsByClassName('anime');
 
 
 function genreZien(){
@@ -37,7 +36,7 @@ function verhaalduurZien(){
       genre.classList.remove('active');
       genreItems.classList.remove('animatie');
       verhaalduurItems.classList.remove('animatie');
-      verhaalduur.classList.add('active')
+      verhaalduur.classList.add('active');
   }else if(verhaalduur.classList.contains('active')){
     verhaalduur.classList.remove('active');
     verhaalduurItems.classList.add('animatie');

@@ -23,7 +23,6 @@ plaatjes = ["",
   "images/interview.jpg",
   "images/johancruijff.jpg",
   "images/lepra.jpg",
-  "images/martinbril.jpg",
   "images/onomatopee.jpg",
   "images/ruudlubbers.jpeg",
   "images/stijloefeningen.jpg",
@@ -43,6 +42,8 @@ function spannendeFilter(){
     verhaal[1].classList.toggle('remove');
     verhaal[2].classList.toggle('remove');
     filterText.textContent = 'Spannende Verhalen';
+  }
+  else{
   }
 }
 
@@ -106,7 +107,6 @@ function zoekInputZien(){
   }else{
     zoekInput.value='';
   }
-
 }
 
 zoekknop.addEventListener('click', zoekInputZien)

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>99 verhalen voor op reis!</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <button id="zoekknop" value="Verhalen zoeken"><span class="responsive-txt">Zoek verhalen</span></button>
+          <form id="zoeken" action="">
+            <input id="zoek-input" type="text" placeholder="Zoek verhalen..." name="Zoek_verhalen">
+          </form>
+        </li>
+        <li><a href="index.html">Link naar home-pagina</a></li>
+        <li><a href="mijn_verhalen.html" id="profielKnop">Mijn verhalen</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="achtergrond_inleiding">
+    <article id="inleiding">
+      <header>
+        <h1>Jouw co-piloot van deur tot deur</h1>
+        <h2>99 verhalen voor op reis</h2>
+        <p>Hier kun je 99 verhalen lezen met hetzelfde onderwerp, de schrijfstijlen verschillen echter bij elk verhaal.</p>
+        <p>Bij elk verhaal zijn kleine schilderijen gemaakt die het verhaal ondersteunen en interessanter maken.</p>
+      </header>
+      <footer>
+        <a id="scroll" class="main_button" href="#de_verhalen">Begin met lezen</a>
+      </footer>
+    </article>
+  </div>
+
+  <section id="de_verhalen">
+
+    <div id="responsive">
+    <h2 id="filter_txt">Alle verhalen</h2>
+
+    <form action="">
+      <p>Filteren op:</p>
+
+
+      <fieldset class="filterItems">
+        <div id="filters">
+          <div id="genreknop">
+            <input type="button" value="Genre"  id="genre" class="filter">
+          </div>
+          <div>
+            <input type="button" value="Verhaalduur" id="verhaalduur" class="filter">
+          </div>
+        </div>
+      </fieldset>
+
+
+      <div id="genreShow" class="filterOnderwerp hide animatie">
+        <fieldset>
+          <div>
+            <ul>
+              <li>
+                <label for="spannend">Spannend</label>
+                <input type="radio" name="genre" id="spannend" class="filter">
+              </li>
+              <li>
+                <label for="vrolijk">Vrolijk</label>
+                <input type="radio" name="genre" id="vrolijk" class="filter">
+              </li>
+              <li>
+                <label for="droevig">Droevig</label>
+                <input type="radio" name="genre" id="droevig" class="filter">
+              </li>
+              <li>
+                <label for="druk">Druk</label>
+                <input type="radio" name="genre" id="druk" class="filter">
+              </li>
+              <li>
+                <label for="rustig">Rustig</label>
+                <input type="radio" name="genre" id="rustig" class="filter">
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+
+      <div id="verhaalduurShow" class="filterOnderwerp hide animatie">
+        <fieldset>
+          <ul>
+            <li>
+              <label for="~5-minuten">~5minuten</label>
+              <input type="radio" name="verhaalduur" id="~5-minuten" class="filter">
+            </li>
+            <li>
+              <label for="~10-minuten">~10minuten</label>
+              <input type="radio" name="verhaalduur" id="~10-minuten" class="filter">
+
+            </li>
+            <li>
+              <label for="~15-minuten">~15minuten</label>
+              <input type="radio" name="verhaalduur" id="~15-minuten" class="filter">
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+    </form>
+    </div>
+
+    <div class="sidescroll">
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Hardboiled</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.5/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Alzheimer</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.8/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Beroemd</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>3.6/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Charlie Sheen</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>1.9/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Doof</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>3.1/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Droom</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.4/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Eric Lucassen</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.0/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Eric Lucassen</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>3.2/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+    </div>
+
+
+
+
+
+  <h2>Aanbevolen voor jou</h2>
+
+    <div class="sidescroll">
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Interview</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.1/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Johan Cruijff</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>3.7/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Lepra</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>2.8/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Martin Bril</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>4.7/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+
+      <article class="verhaal">
+        <div class="download">
+          <button class="download-button" value="downloadknop"></button>
+        </div>
+        <a class="verhalen" href="verhaal_Hardboiled.html">
+          <section class="picture_content">
+            <div>
+            <h3>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h3>
+            </div>
+            <div class="mini-container">
+              <div>
+              <p>2.1/5.0</p>
+              <img class="ster" src="images/ster.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </a>
+      </article>
+</div>
+</section>
+<footer></footer>
+<script src="js/script.js"></script>
+</body>
+
+
+</html>
